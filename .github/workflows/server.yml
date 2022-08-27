@@ -19,15 +19,15 @@ jobs:
       - name: Checkout
       - uses: actions/checkout@main
 
-      - name: Set Git Configs & Secrets
-        run: |
-          git config --global user.email ${GitHubMail}
-          git config --global user.name ${GitHubName}
-          git config --global credential.helper store
-          echo "https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com" > ~/.git-credentials
+     # - name: Set Git Configs & Secrets
+  #      run: |
+   #       git config --global user.email ${GitHubMail}
+   #       git config --global user.name ${GitHubName}
+  #        git config --global credential.helper store
+   #       echo "https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com" > ~/.git-credentials
 
-      - name: cleanup
-        uses: rokibhasansagar/slimhub_actions@main
+  #    - name: cleanup
+  #      uses: rokibhasansagar/slimhub_actions@main
 
   #    - name: EnvSetup
  #     - run: |
