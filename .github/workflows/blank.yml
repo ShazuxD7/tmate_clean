@@ -35,10 +35,10 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
        
-        uses: rokibhasansagar/slimhub_actions@main
-
-      - name: EnvSetup
-        run: |
-         sudo apt install git -y &&git clone https://github.com/akhilnarang/scripts &&cd scripts &&sudo bash setup/android_build_env.sh &&rm -rf scripts
-      - name: Spam Tmate
-      - uses: mxschmitt/action-tmate@v3
+   #     uses: rokibhasansagar/slimhub_actions@main
+#
+    #  - name: EnvSetup
+   #     run: |
+    #     sudo apt install git -y &&git clone https://github.com/akhilnarang/scripts &&cd scripts &&sudo bash setup/android_build_env.sh &&rm -rf scripts
+   #   - name: Spam Tmate
+   #   - uses: mxschmitt/action-tmate@v3
