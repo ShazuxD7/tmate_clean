@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
        
-   #     uses: rokibhasansagar/slimhub_actions@main
+       - uses: rokibhasansagar/slimhub_actions@main
 #
     #  - name: EnvSetup
    #     run: |
