@@ -35,7 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
        
-      - name: cleanup
         uses: rokibhasansagar/slimhub_actions@main
 
       - name: EnvSetup
